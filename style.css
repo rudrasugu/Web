@@ -1,47 +1,38 @@
-/* Grunnleggende reset for å fjerne standardmarginer */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    color: #333;
-    padding: 20px;
-}
-
-header {
     text-align: center;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    background-color: #f0f0f0;
 }
 
 h1 {
-    color: #2c3e50;
-    font-size: 2.5em;
+    color: #333;
 }
 
-p {
-    max-width: 600px;
-    margin: 0 auto 20px;
-    font-size: 1.1em;
+#tekst {
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
 button {
-    display: block;
-    margin: 0 auto;
     padding: 10px 20px;
-    background-color: #3498db;
+    font-size: 16px;
+    margin: 10px;
+    background-color: #007bff;
     color: white;
     border: none;
     border-radius: 5px;
-    font-size: 1em;
     cursor: pointer;
-    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #2980b9;
+    background-color: #0056b3;
+}
+
+button:nth-child(2) {
+    background-color: #dc3545;
+}
+
+button:nth-child(2):hover {
+    background-color: #b02a37;
 }

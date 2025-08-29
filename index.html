@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enkel Nettside</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Rudras første side</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Velkommen til min nettside</h1>
-    </header>
-    <main>
-        <p>Dette er en enkel nettside laget med HTML og CSS.</p>
-        <button>Klikk meg!</button>
-    </main>
+    <h1>Velkommen til Rudras første side</h1>
+    <p id="tekst">Trykk på knappen for å endre denne teksten.</p>
+    <button onclick="endreTekst()">Klikk meg!</button>
+    <button onclick="lukkSide()">Lukk siden</button>
+
+    <script src="javascript.js"></script>
 </body>
 </html>
